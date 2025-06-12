@@ -1,4 +1,4 @@
-
+import profileimg from '../../ajprofile.jpg'
 import React from 'react';
 
 const Hero = () => {
@@ -42,7 +42,7 @@ const Hero = () => {
               <div className="profile-card">
                 <div className="profile-image">
                   {/* <i className="fas fa-user-circle"></i> */}
-                 <img src="/ajprofile.jpg?url"  className='rounded   ' style={{height:"20rem"}}/> 
+                 <img src={profileimg}  className='rounded   ' style={{height:"20rem"}}/> 
                 </div>
                 <div className="code-animation">
                   <div className="code-line"></div>
