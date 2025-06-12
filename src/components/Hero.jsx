@@ -1,5 +1,5 @@
-import profileimg from '../../ajprofile.jpg'
 import React from 'react';
+import profileimg from '../../public/ajprofile.jpg'
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
