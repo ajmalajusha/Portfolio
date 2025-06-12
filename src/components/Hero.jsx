@@ -1,7 +1,5 @@
 
 import React from 'react';
-import profile from "../../public/ajprofile.jpg"
-
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -44,7 +42,7 @@ const Hero = () => {
               <div className="profile-card">
                 <div className="profile-image">
                   {/* <i className="fas fa-user-circle"></i> */}
-                 <img src={profile}  className='rounded   ' style={{height:"20rem"}}/> 
+                 <img src="/ajprofile.jpg?url"  className='rounded   ' style={{height:"20rem"}}/> 
                 </div>
                 <div className="code-animation">
                   <div className="code-line"></div>
